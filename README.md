@@ -1,6 +1,6 @@
 # Daily Task Manager
 
-A console-based daily task manager written in C++, built as a Data Structures mini project (AKTU B.Tech CSE, 2nd year, 3rd semester, BCS-301).
+A console-based daily task manager written in C, built as a Data Structures mini project (AKTU B.Tech CSE, 2nd year, 3rd semester, BCS-301).
 
 ## Features
 - Add a task with a unique ID, priority (High / Medium / Low), and due date
@@ -26,7 +26,7 @@ Tasks are loaded from the file into the linked list at startup, and the list is 
 
 ```
 
-g++ task_manager.cpp -o task_manager
+gcc task_manager.c -o task_manager
 ./task_manager
 
 ```
